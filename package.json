@@ -1,0 +1,20 @@
+{
+  "name": "haunted house",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "lil-gui": "^0.17.0",
+    "three": "^0.148.0"
+  }
+}
